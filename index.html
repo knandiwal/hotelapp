@@ -42,7 +42,8 @@
       <link rel="stylesheet" type="text/css" href="css/src/win8.css"  />
       <link rel="stylesheet" type="text/css" href="css/src/bb.css"  />
       <link rel="stylesheet" type="text/css" href="css/src/ios7.css"  />
-      <link rel="stylesheet" type="text/css" href="css/src/ios.css"  />        
+      <link rel="stylesheet" type="text/css" href="css/src/ios.css"  />  
+      <link rel="stylesheet" type="text/css" href="css/src/custom.css"  />       
 
         <!-- uncomment for AppMobi apps <script type="text/javascript" charset="utf-8" src="http://localhost:58888/_appMobi/appmobi.js"></script>
 <script type="text/javascript" charset="utf-8" src="http://localhost:58888/_appMobi/xhr.js"></script>
@@ -87,6 +88,8 @@
         <script type="text/javascript" charset="utf-8" src="./ui/transitions/slideDown.js"></script>
         <script type="text/javascript" charset="utf-8" src="./ui/transitions/slideUp.js"></script>
         <script type="text/javascript" charset="utf-8" src="./plugins/af.slidemenu.js"></script>
+        <script type="text/javascript" charset="utf-8" src="./plugins/af.carousel.js"></script>
+       
 
         <script type="text/javascript">
             /* This function runs once the page is loaded, but appMobi is not yet active */
@@ -156,6 +159,14 @@
                     });
                 });
             }
+
+
+
+         /*Creating the carousel*/
+
+
+                     
+
         </script>
         <style>
            .samplecode {
@@ -189,6 +200,13 @@
             </div>
             <div id="content">
                 <div title='Welcome' id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home">
+
+                   <!--  Carousel -->
+
+
+                    <!--  Fin Carousel -->
+
+
                     <h2 class='expanded' onclick='showHide(this,"main_info");'>Welcome</h2>
 
                     <p id='main_info'>Welcome to the kitchen sink demo for App Framework. Here you will find samples of how to use the App Framework libraries. Please select an option from below.</p>
