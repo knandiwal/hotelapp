@@ -1,3 +1,20 @@
 #backButton {
 	visibility: hidden;
 }
+
+img {
+	max-width: 100%;
+	width: 100%;
+}
+
+
+
+
+
+/* add padding to the panel container */
+.panel-container {
+	padding: 10px;
+}
+#afui .panel h2 {
+	color:#000;
+}

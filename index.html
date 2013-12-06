@@ -38,11 +38,11 @@
       <link rel="stylesheet" type="text/css" href="plugins/css/af.popup.css"  />
       <link rel="stylesheet" type="text/css" href="plugins/css/af.selectBox.css"  />
         
-      <link rel="stylesheet" type="text/css" href="css/src/android.css"  />
-      <link rel="stylesheet" type="text/css" href="css/src/win8.css"  />
-      <link rel="stylesheet" type="text/css" href="css/src/bb.css"  />
-      <link rel="stylesheet" type="text/css" href="css/src/ios7.css"  />
-      <link rel="stylesheet" type="text/css" href="css/src/ios.css"  />  
+   <!-- <link rel="stylesheet" type="text/css" href="css/src/android.css"  />
+    <link rel="stylesheet" type="text/css" href="css/src/win8.css"  />
+    <link rel="stylesheet" type="text/css" href="css/src/bb.css"  />
+    <link rel="stylesheet" type="text/css" href="css/src/ios7.css"  />
+    <link rel="stylesheet" type="text/css" href="css/src/ios.css"  />    -->
       <link rel="stylesheet" type="text/css" href="css/src/custom.css"  />       
 
         <!-- uncomment for AppMobi apps <script type="text/javascript" charset="utf-8" src="http://localhost:58888/_appMobi/appmobi.js"></script>
@@ -201,13 +201,11 @@
             <div id="content">
                 <div title='Welcome' id="main" class="panel" selected="true" data-load="loadedPanel" data-unload="unloadedPanel" data-tab="navbar_home">
 
-                   <!--  Carousel -->
+                    <img src="./images/hotel.jpg" alt="">
 
+                    <div class="panel-container">
 
-                    <!--  Fin Carousel -->
-
-
-                    <h2 class='expanded' onclick='showHide(this,"main_info");'>Welcome</h2>
+                    <h2 >Welcome</h2>
 
                     <p id='main_info'>Welcome to the kitchen sink demo for App Framework. Here you will find samples of how to use the App Framework libraries. Please select an option from below.</p>
                     <ul class="list">
@@ -237,6 +235,8 @@
                         </li>
 
                     </ul>
+
+                    </div>
                 </div>
                 <!---------------------------------------------->
                 <div title="AppFramework" id="af" class="panel" data-nav="menu_AppFramework" data-header="testheader">
@@ -2171,7 +2171,18 @@ The parent id for this div is "content". Let's verify it.
 
             </header>
             <!-- ------------------------------------------ -->
+
+
             <nav>
+
+                <div class="logo-container">
+                    
+                </div>
+
+
+
+
+
                 <ul class="list">
                     <li class="divider" class="icon home">Home</li>
                     <li>
