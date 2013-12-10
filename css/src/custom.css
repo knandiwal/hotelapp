@@ -18,3 +18,11 @@ img {
 #afui .panel h2 {
 	color:#000;
 }
+
+
+.logo-container img {
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+
+}
