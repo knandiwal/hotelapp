@@ -89,11 +89,18 @@
         <script type="text/javascript" charset="utf-8" src="./ui/transitions/slideUp.js"></script>
         <script type="text/javascript" charset="utf-8" src="./plugins/af.slidemenu.js"></script>
         <script type="text/javascript" charset="utf-8" src="./plugins/af.carousel.js"></script>
+        
 
         <!-- This scripts are for mvc -->
-        <script type="text/javascript" charset="utf-8" src="af.mvc.js"></script>
+        <!-- <script type="text/javascript" charset="utf-8" src="af.mvc.js"></script>
         <script type="text/javascript" charset="utf-8" src="app.js"></script>
-       
+        -->
+
+
+       <!--  I'm only going to use handlebars instead-->
+
+
+
 
         <script type="text/javascript">
             /* This function runs once the page is loaded, but appMobi is not yet active */
@@ -122,6 +129,7 @@
 
             $(document).ready(function(){
                    $.ui.launch();
+
 
             });
             
@@ -209,9 +217,14 @@
 
                     <div class="panel-container">
 
-                    <h2 >Bienvenue</h2>
+                    <h2 id="bienvenue"></h2>
 
-                    <p id='main_info'>Welcome to the kitchen sink demo for App Framework. Here you will find samples of how to use the App Framework libraries. Please select an option from below.</p>
+
+
+           
+
+
+                    <p id='testeDIntro'>Welcome to the kitchen sink demo for App Framework. Here you will find samples of how to use the App Framework libraries. Please select an option from below.</p>
                     <ul class="list">
                         <li class='red'>
                             <a href="#af" id='aflink' class='icon home big'>App Framework</a>
@@ -2337,6 +2350,6 @@ The parent id for this div is "content". Let's verify it.
                 </ul>
             </nav>
         </div>
-
+<script type="text/javascript" charset="utf-8" src="./js/language.js"></script>
     </body>
 </html>
